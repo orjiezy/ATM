@@ -4,13 +4,12 @@ package com.kamapulya.ATM;
 import java.sql.*;
 import java.util.Scanner;
 
-public class LogiRegi {
+class LogReg {
 
+    private PreparedStatement preparedStatement = null;
+    private Scanner in = new Scanner(System.in);
 
-    PreparedStatement preparedStatement = null;
-    Scanner in = new Scanner(System.in);
-
-    public LogiRegi(String answer){
+    LogReg(String answer){
         if(answer.equals("n")){
             login();
         }
@@ -19,13 +18,15 @@ public class LogiRegi {
         }
     }
 
-    public void login(){
-        System.out.println("Enter your username, please");
+    private void login(){
         DataBaseConnection db = new DataBaseConnection();
         boolean isValid = false;
 
         do{
+            System.out.println("Enter your username, please");
             String userDB = in.next();
+            System.out.println("Enter your password, please");
+            String userPass = in.next();
             if(userDB.equals("exit"))
                 System.exit(0);
             if(userDB.equals("reg")){
@@ -33,55 +34,54 @@ public class LogiRegi {
                 break;
             }
 
-            final String query = "SELECT * FROM usersatm WHERE user=?";
+            final String query = "SELECT * FROM usersatm WHERE user=? AND password=?";
             try {
                 preparedStatement = db.getConnection().prepareStatement(query);
                 preparedStatement.setString(1, userDB);
+                preparedStatement.setString(2, userPass);
                 ResultSet resultSet = preparedStatement.executeQuery();
 
                 if(resultSet.next()){
-                    System.out.println("You entered successful");
+                    System.out.println("You've entered successful");
                     isValid = true;
                 }else{
-                    System.out.println("Invalid login, try again, type 'exit' to exit or type 'reg' to go to the registration");
+                    System.out.println("Invalid login or password, try again, type 'exit' to exit or type 'reg' to go to the registration");
                 }
 
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-        }while(isValid == false);
+        }while(!isValid);
 
     }
 
-    public void registration(){
+    private void registration(){
+        boolean isValid = false;
+        final String query = "INSERT INTO usersatm (user, password) VALUES (?, ?)";
         System.out.println("Enter your username, please");
         String userDB = in.next();
         System.out.println("Please, enter your new password");
         String passDB = in.next();
         DataBaseConnection db = new DataBaseConnection();
 
-        final String query = "INSERT INTO usersatm (user, password) VALUES (?, ?)";
         try {
             preparedStatement = db.getConnection().prepareStatement(query);
             preparedStatement.setString(1, userDB);
             preparedStatement.setString(2, passDB);
             try{
                 preparedStatement.execute();
+                isValid = true;
             }catch (Exception e){
                 System.out.println("Please, use another username, this one is busy");
                 registration();
             }
-
-            System.out.println("You registered successfully");
-            //ошыбку выводить если не зарегано(можно сделать целый метод из какого-нибудь хелп класса ради этого)
+            if (isValid)
+                System.out.println("You registered successfully");
 
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
 
     }
 }

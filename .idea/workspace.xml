@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ea1676f-a830-4684-b539-5230c70baf7d" name="Default" comment="" />
+    <list default="true" id="5ea1676f-a830-4684-b539-5230c70baf7d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/-a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/kamapulya/ATM/LogiRegi.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/DataBaseConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/DataBaseConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,9 +78,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,22 +90,26 @@
       <file leaf-file-name="DataBaseConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/DataBaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogiRegi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java">
+      <file leaf-file-name="LogReg.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1491745695691" expanded="true" signature="788:823" ph="SELECT * FRO... usersatm" />
-                <marker date="1491745695691" expanded="true" signature="1809:1860" ph="INSERT INTO usersatm... " />
+                <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
+                <element signature="method#login#0;class#LogReg#0" expanded="false" />
+                <marker date="1491749383686" expanded="true" signature="894:929" ph="SELECT * FRO... usersatm" />
+                <marker date="1491749383686" expanded="true" signature="894:944" ph="SELECT * FRO... usersatm" />
+                <marker date="1491749383686" expanded="false" signature="1713:2715" ph="{...}" />
+                <marker date="1491749383686" expanded="true" signature="1778:1829" ph="INSERT INTO usersatm... " />
               </folding>
             </state>
           </provider>
@@ -102,8 +118,8 @@
       <file leaf-file-name="BankHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -112,12 +128,11 @@
       <file leaf-file-name="ArraysETC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#607#608#0" expanded="false" />
-                <element signature="e#638#639#0" expanded="false" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,12 +158,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/DataBaseConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReggi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java" />
       </list>
     </option>
   </component>
@@ -285,7 +302,7 @@
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.kamapulya.ATM.*" />
+          <option name="PATTERN" value="com.kamapulya.ATM.LogReg" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -715,12 +732,12 @@
       <workItem from="1491655167245" duration="618000" />
       <workItem from="1491662411078" duration="3407000" />
       <workItem from="1491722145407" duration="3835000" />
-      <workItem from="1491745024218" duration="780000" />
+      <workItem from="1491745024218" duration="3705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24020000" />
+    <option name="totallyTimeSpent" value="26945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -736,13 +753,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28679654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28679654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13006397" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22014925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -784,7 +801,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -809,21 +828,24 @@
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491745695691" expanded="true" signature="788:823" ph="SELECT * FRO... usersatm" />
-            <marker date="1491745695691" expanded="true" signature="1809:1860" ph="INSERT INTO usersatm... " />
+            <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
+            <element signature="method#login#0;class#LogReg#0" expanded="false" />
+            <marker date="1491749383686" expanded="true" signature="894:929" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="true" signature="894:944" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="false" signature="1713:2715" ph="{...}" />
+            <marker date="1491749383686" expanded="true" signature="1778:1829" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -832,18 +854,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491745695691" expanded="true" signature="788:823" ph="SELECT * FRO... usersatm" />
-            <marker date="1491745695691" expanded="true" signature="1809:1860" ph="INSERT INTO usersatm... " />
+            <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
+            <element signature="method#login#0;class#LogReg#0" expanded="false" />
+            <marker date="1491749383686" expanded="true" signature="894:929" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="true" signature="894:944" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="false" signature="1713:2715" ph="{...}" />
+            <marker date="1491749383686" expanded="true" signature="1778:1829" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -861,9 +889,8 @@
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -880,7 +907,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -905,21 +934,24 @@
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="85" lean-forward="false" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491745695691" expanded="true" signature="788:823" ph="SELECT * FRO... usersatm" />
-            <marker date="1491745695691" expanded="true" signature="1809:1860" ph="INSERT INTO usersatm... " />
+            <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
+            <element signature="method#login#0;class#LogReg#0" expanded="false" />
+            <marker date="1491749383686" expanded="true" signature="894:929" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="true" signature="894:944" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="false" signature="1713:2715" ph="{...}" />
+            <marker date="1491749383686" expanded="true" signature="1778:1829" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -928,7 +960,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -953,21 +987,24 @@
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="38" column="85" lean-forward="false" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491745695691" expanded="true" signature="788:823" ph="SELECT * FRO... usersatm" />
-            <marker date="1491745695691" expanded="true" signature="1809:1860" ph="INSERT INTO usersatm... " />
+            <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
+            <element signature="method#login#0;class#LogReg#0" expanded="false" />
+            <marker date="1491749383686" expanded="true" signature="894:929" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="true" signature="894:944" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="false" signature="1713:2715" ph="{...}" />
+            <marker date="1491749383686" expanded="true" signature="1778:1829" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -976,7 +1013,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,9 +1044,8 @@
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,9 +1086,8 @@
         <state relative-caret-position="102">
           <caret line="7" column="127" lean-forward="false" selection-start-line="7" selection-start-column="127" selection-end-line="7" selection-end-column="127" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1059,7 +1096,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,7 +1121,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,18 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/3a784c08/635c2858-9a56-45aa-b2c8-eb427e6028ae/mydbtest.usersatm">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1124,38 +1153,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/DataBaseConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/DataBaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogiRegi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1491745695691" expanded="true" signature="788:823" ph="SELECT * FRO... usersatm" />
-            <marker date="1491745695691" expanded="true" signature="1809:1860" ph="INSERT INTO usersatm... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/-a">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
+            <element signature="method#login#0;class#LogReg#0" expanded="false" />
+            <marker date="1491749383686" expanded="true" signature="894:929" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="true" signature="894:944" ph="SELECT * FRO... usersatm" />
+            <marker date="1491749383686" expanded="false" signature="1713:2715" ph="{...}" />
+            <marker date="1491749383686" expanded="true" signature="1778:1829" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>

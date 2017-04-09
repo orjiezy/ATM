@@ -1,10 +1,7 @@
 package com.kamapulya.ATM;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class BankHelper {
-    ArraysETC arr = new ArraysETC();
+    private ArraysETC arr = new ArraysETC();
 
     public void refund(double price, double paidMoney){
         if((price<=0) || (paidMoney<=0) || (paidMoney<price)){

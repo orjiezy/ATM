@@ -1,7 +1,6 @@
 package com.kamapulya.ATM;
 
 import java.sql.SQLException;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +13,7 @@ public class Main {
         do {
             answer = in.next();
         } while ((!answer.equals("y")) && (!answer.equals("n")));
-        LogiRegi lr = new LogiRegi(answer);
+        LogReg lr = new LogReg(answer);
 
 
 
