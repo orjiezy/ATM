@@ -11,7 +11,7 @@ class ArraysETC {
 
     void makeArray() { //In the future I can set up array depending on the country in an arguments
         cash.addAll(Arrays.asList(5000, 1000, 500, 100, 50, 10)); //adds banknotes in the array
-        currency = "rubles";
+        currency = "dollars";
     }
 
     ArrayList<Integer> getCash() {

@@ -8,6 +8,7 @@ class LogReg {
 
     private PreparedStatement preparedStatement = null;
     private Scanner in = new Scanner(System.in);
+    private BalanceETC BalanceETC = new BalanceETC();
 
     LogReg(String answer){
         if(answer.equals("n")){
@@ -25,14 +26,14 @@ class LogReg {
         do{
             System.out.println("Enter your username, please");
             String userDB = in.next();
-            System.out.println("Enter your password, please");
-            String userPass = in.next();
             if(userDB.equals("exit"))
                 System.exit(0);
             if(userDB.equals("reg")){
                 registration();
-                break;
-            }
+                break;  }
+            System.out.println("Enter your password, please");
+            String userPass = in.next();
+
 
             final String query = "SELECT * FROM usersatm WHERE user=? AND password=?";
             try {
@@ -44,6 +45,7 @@ class LogReg {
                 if(resultSet.next()){
                     System.out.println("You've entered successful");
                     isValid = true;
+                    BalanceETC.showBalance(userDB);
                 }else{
                     System.out.println("Invalid login or password, try again, type 'exit' to exit or type 'reg' to go to the registration");
                 }
@@ -75,12 +77,21 @@ class LogReg {
                 System.out.println("Please, use another username, this one is busy");
                 registration();
             }
-            if (isValid)
+            if (isValid) {
                 System.out.println("You registered successfully");
+                BalanceETC.showBalance(userDB);
+            }
 
 
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                preparedStatement.close();
+                db.getConnection().close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
 
     }
