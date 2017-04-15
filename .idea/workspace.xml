@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ea1676f-a830-4684-b539-5230c70baf7d" name="Default" comment="Some blanks for a future menu with a balance, blackjack and whrs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BalanceETC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kamapulya/ATM/LogReg.class" afterPath="$PROJECT_DIR$/target/classes/com/kamapulya/ATM/LogReg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java" afterPath="$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java" />
-    </list>
+    <list default="true" id="5ea1676f-a830-4684-b539-5230c70baf7d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +68,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="85">
+              <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -94,29 +88,12 @@
       <file leaf-file-name="LogReg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="409">
+              <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-                <element signature="method#login#0;class#LogReg#0" expanded="false" />
-                <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-                <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-                <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-                <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BalanceETC.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BalanceETC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1492005590442" expanded="true" signature="377:415" ph="SELECT cash usersatm" />
+                <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+                <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
               </folding>
             </state>
           </provider>
@@ -137,12 +114,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BalanceETC.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BalanceETC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <marker date="1492243583956" expanded="true" signature="377:415" ph="SELECT cash usersatm" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BankHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="-254">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,9 +141,14 @@
       <file leaf-file-name="ArraysETC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+                <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+                <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+                <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,8 +315,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -783,41 +779,64 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31708000" />
+    <option name="totallyTimeSpent" value="31716000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28679654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28679654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096481875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123667374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11513859" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096481875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28679654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,7 +868,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,13 +882,9 @@
         <state relative-caret-position="1275">
           <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -889,7 +909,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,7 +919,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,13 +933,9 @@
         <state relative-caret-position="221">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -937,7 +960,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -945,7 +970,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -954,13 +984,9 @@
         <state relative-caret-position="1037">
           <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -978,13 +1004,9 @@
         <state relative-caret-position="799">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -993,7 +1015,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,7 +1025,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,7 +1062,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,7 +1072,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,13 +1086,9 @@
         <state relative-caret-position="646">
           <caret line="38" column="85" lean-forward="false" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -1081,7 +1113,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,7 +1123,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,13 +1137,9 @@
         <state relative-caret-position="595">
           <caret line="38" column="85" lean-forward="false" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
@@ -1133,7 +1168,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,7 +1178,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,7 +1214,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="66" lean-forward="false" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,7 +1224,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="127" lean-forward="false" selection-start-line="7" selection-start-column="127" selection-end-line="7" selection-end-column="127" />
-          <folding />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,7 +1252,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,24 +1304,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/LogReg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="409">
+          <caret line="37" column="61" lean-forward="false" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#LogReg#0;class#LogReg#0" expanded="false" />
-            <element signature="method#login#0;class#LogReg#0" expanded="false" />
-            <element signature="method#registration#0;class#LogReg#0" expanded="false" />
-            <marker date="1492004921351" expanded="true" signature="938:973" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="938:988" ph="SELECT * FRO... usersatm" />
-            <marker date="1492004921351" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
+            <marker date="1492243583961" expanded="false" signature="1809:3090" ph="{...}" />
+            <marker date="1492243583961" expanded="true" signature="1874:1925" ph="INSERT INTO usersatm... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="85">
+          <caret line="6" column="64" lean-forward="false" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -1290,27 +1337,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/ArraysETC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1492243583954" expanded="true" signature="524:535" ph=" { " />
+            <marker date="1492243583954" expanded="true" signature="547:553" ph=" }" />
+            <marker date="1492243583954" expanded="false" signature="579:590" ph=" { " />
+            <marker date="1492243583954" expanded="false" signature="606:612" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BankHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="-254">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <marker date="1492243583958" expanded="true" signature="1087:1094" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kamapulya/ATM/BalanceETC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="153">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1492005590442" expanded="true" signature="377:415" ph="SELECT cash usersatm" />
+            <marker date="1492243583956" expanded="true" signature="377:415" ph="SELECT cash usersatm" />
           </folding>
         </state>
       </provider>
