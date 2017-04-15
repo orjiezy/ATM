@@ -20,21 +20,21 @@ class LogReg {
     }
 
     private void login(){
-        DataBaseConnection db = new DataBaseConnection();
         boolean isValid = false;
 
         do{
             System.out.println("Enter your username, please");
             String userDB = in.next();
-            if(userDB.equals("exit"))
+            if(userDB.equals("/exit"))
                 System.exit(0);
-            if(userDB.equals("reg")){
+            if(userDB.equals("/reg")){
                 registration();
                 break;  }
             System.out.println("Enter your password, please");
             String userPass = in.next();
 
 
+            DataBaseConnection db = new DataBaseConnection();
             final String query = "SELECT * FROM usersatm WHERE user=? AND password=?";
             try {
                 preparedStatement = db.getConnection().prepareStatement(query);
@@ -47,7 +47,7 @@ class LogReg {
                     isValid = true;
                     BalanceETC.showBalance(userDB);
                 }else{
-                    System.out.println("Invalid login or password, try again, type 'exit' to exit or type 'reg' to go to the registration");
+                    System.out.println("Invalid login or password, try again, type '/exit' to exit or type '/reg' to go to the registration");
                 }
 
             } catch (SQLException e) {
